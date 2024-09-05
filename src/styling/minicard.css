@@ -1,0 +1,37 @@
+.mini{
+    display: flex;
+    
+    justify-content: center;
+    align-items: start;
+    padding: 10px;
+    height: 110px;
+    width: 110px;
+    background-color: #AD36CB;
+    background: linear-gradient(-50deg ,  #322F2F, #AD36CB,#AD36CB);
+    border-radius: 25px;
+    zoom: 0.9;
+}
+
+.mini::after{
+    content: '';
+    position: absolute;
+    margin-top: 50px;
+    border-radius: 25px;
+    height: 85px;
+    width: 130px;
+   
+    background: linear-gradient(70deg ,#322F2F,#322F2F,#59495b);;
+   
+}
+.weth{
+ position: absolute;
+ z-index: 1;
+ margin-top: 25px;
+ 
+
+}
+#temp{
+    position: absolute;
+    z-index: 1;
+    margin-top: 90px;  
+}

@@ -1,0 +1,58 @@
+.grad{
+    background-color: red;
+    height: 335px;
+    min-width: 707px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 10px;
+    border-radius: 32px;
+    margin-top: 50px;
+    background: linear-gradient(-30deg,#323333,#323333,#AD36CB,#AD36CB);
+    font-size: 25px;
+    transition: all 0.9s ease;
+}
+.grad-black{
+  
+    height: 335px;
+    min-width: 707px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 10px;
+    border-radius: 32px;
+    margin-top: 50px;
+   
+    font-size: 25px;
+    transition: all 0.9s ease;
+}
+.im{
+    width: 30px;
+    height: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 10px;
+}
+
+.center{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    gap: 20px;
+    font-weight: 400;
+    margin-top: 40px;
+}
+
+.centerim{
+    width: 15px;
+}
+
+.cardbutt{
+    display: flex;
+    flex-direction: row;
+    gap: 13%;
+    margin-top: 80px;
+    text-align: center;
+}

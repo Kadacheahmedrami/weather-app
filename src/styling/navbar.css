@@ -1,0 +1,76 @@
+h1{
+    padding: 0;
+    margin: 0;
+    margin-top: 16px;
+  }
+  nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;  
+  
+  }
+  .row{
+    display: flex;
+    flex-direction: row;
+  }
+  .column{
+    display: flex;
+    flex-direction: column;
+  }
+  .logo{
+    margin-bottom: auto;
+    width: 60px;
+  }
+  
+  
+  .current{
+    margin-left: auto;
+    position: relative;
+    margin-top: 5px;
+  }
+  .options{
+  margin-left: 15%;
+  
+  
+  }
+  .op{
+    color: whitesmoke;
+    font-size: 40px;
+    margin: 20px;
+    margin-top: 56px;
+    transition: 0.3s ease;
+   
+  }
+
+  .op:hover {
+    cursor: pointer;
+    filter: drop-shadow(0 0 2px whitesmoke) brightness(1.2);
+  }
+
+  .op::before{
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 100%;
+    display: none;
+    margin-top: 60px;
+    background-color: whitesmoke;
+    filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.8)); /* Glowing effect */
+    animation:widthGlowAnimation 0.5s ;
+  }
+
+  .op:hover::before{
+   display: flex;
+  }
+
+  
+  @keyframes widthGlowAnimation {
+    0% {
+      width: 0%; /* Start width at 0% */
+      filter: drop-shadow(0 0 5px transparent); /* Initial glow effect */
+    }
+    100% {
+      width: 100%; /* End width at 100% */
+      filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.8)); /* Glowing effect */
+    }
+  }
